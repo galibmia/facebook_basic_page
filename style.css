@@ -1,0 +1,194 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.mid{
+	width: 75%;
+	margin: auto;
+}
+/*****start header****/
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background-color:#3B5998;
+	display: block;
+	overflow: hidden;
+}
+.logo{
+	width: 60%;
+	float: left;
+}
+.login{
+	width: 40%;
+	float: left;
+}
+.logo img{
+	margin-top: 5px;
+	cursor: pointer;
+}
+.user{
+	width: 40%;
+	float: left;
+}
+.user label{
+	color: #BCE1D9;
+	font-family: tohma;
+	cursor: pointer;
+}
+.user input{
+	border: 0.5px solid #223366;
+	padding: 2px;
+	width: 150px;
+}
+.pass{
+	width: 40%;
+	float: left;
+	
+}
+.pass label{
+	color: #BCE1D9;
+	font-family: tohma;
+	cursor: pointer;
+}
+.pass input{
+	border: 0.5px solid #223366;
+	padding: 2px;
+	width: 150px;
+}
+.pass a{
+	text-decoration: none;
+	color:#8CACC3;
+	
+}
+.submit{
+	width: 20%;
+	float: left;
+}
+.submit input{
+	margin-top: 19px;
+	background-color:#5A74A8;
+	color:#DCE1EC;
+	border:1px solid #253365;
+	padding: 1.3px;
+	cursor: pointer;
+}
+/******end header*******/
+/******start contener*****/
+
+.contener{
+	width: 100%;
+	background: linear-gradient(#FFFFFF, #D4D9E9);
+}
+.contener_left{
+	width: 60%;
+	float: left;
+	
+}
+.contener_left h1{
+	width: 530px;
+	font-family: tohma;
+	overflow: hidden;
+}
+.contener_left img{
+	overflow: hidden;
+	display: block;
+}
+.contener_right{
+	width: 40%;
+	float: left;
+	
+}
+.sec1{
+	width: 100%;
+	
+}
+.sec1 h1{
+	color: #000000;
+	font-family: tohma;
+	margin-bottom: 0px;
+}
+.sec1 h3{
+	color: #000000;
+	font-family: tohma;
+	margin-top: 1px;
+}
+.sec2 input{
+	padding:15px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border: .5px solid #C1CADA;
+	border-radius: 2%;
+	width: 360px;
+}
+.sec2 input:nth-child(1){
+	width:160px;
+}
+.sec2 input:nth-child(2){
+	width:160px;
+}
+.sec3 h2{
+	margin-top:5px;
+	margin-bottom: 5px;
+	font-family: tohma;
+}
+
+.sec3 select{
+	float: left;
+	padding: 10px;
+	border: .1px solid gray;
+}
+.sec3 select:nth-child(3){
+	margin-left: 2px;
+}
+
+.sec3 select:nth-child(4){
+	margin-left: 2px;
+	margin-right: 5px;
+}
+.sec3 a{
+	width: 45px;
+	text-decoration: none;
+	color:#3A5795;
+	font-family: tohma;
+	font-size: 15px;
+	
+}
+.sec4{
+	margin-top: 5px;
+}
+.sec4 label {
+	font-size: 20px;
+	
+}
+.sec5{
+	margin-top: 2px;
+	overflow: hidden;
+}
+.sec5 p{
+	margin-top:2;
+	font-family: tohma;
+	font-size: 15px;
+	color: gray;
+}
+.sec5 a{
+	text-decoration: none;
+	color: blue;
+}
+.sec5 input{
+	background: linear-gradient(#588944, #77B862);
+	color: white;
+	border-radius: 2%;
+	padding: 10px;
+	width: 200px;
+	border: .5px solid #67A153;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: tohma;
+	overflow: hidden;
+}
+.sec5 input:hover{
+	background: linear-gradient(#77B862, #588944);
+}
+/********end contener***/
+/********footer strat*****/
+
